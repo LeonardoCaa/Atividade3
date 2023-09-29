@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/fundo1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo1" />
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableEnd="@drawable/baseline_person"
+        android:hint="User Name"
+        android:inputType="text"
+        android:maxLength="80"
+        android:padding="30sp"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableEnd="@drawable/baseline_key"
+        android:hint="Insira sua senha"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp" />
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:drawableEnd="@drawable/baseline_email"
+            android:hint="Insira sua Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="80"
+            android:padding="20sp" />
+        <EditText
+            android:id="@+id/edtTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:drawableEnd="@drawable/baseline_phone"
+            android:hint="Insira seu Telefone"
+            android:inputType="textPassword"
+            android:maxLength="80"
+            android:padding="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/baseline_check"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="Aceite todos os termos e condições"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:textColor="@color/white"
+            android:text="Você deseja trocar de conta?"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:drawableEnd="@drawable/baseline_arrow"
+            android:text="Sign In"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
